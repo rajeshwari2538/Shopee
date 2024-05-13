@@ -17,7 +17,7 @@ const HomePage = () => {
 
   return (
     <div className="relative overflow-hidden min-h-screen">
-      <div className="absolute inset-0 z-0 opacity-80" style={{backgroundImage: `url('https://images.pexels.com/photos/3756777/pexels-photo-3756777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundPositionY: `calc(50% + ${scrollY * 0.5}px)`}}></div>
+      <div className="absolute inset-0 z-0 opacity-80" style={{backgroundImage: `url('https://images.pexels.com/photos/3756777/pexels-photo-3756777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`, backgroundSize: 'cover', backgroundPosition: 'left', backgroundPositionY: `calc(50% + ${scrollY * 0.5}px)`}}></div>
       <div className="relative ml-28 z-10 text-white flex items-center justify-start min-h-screen py-12 px-4">
         <div className="p-8 rounded-lg max-w-[40rem]">
           <h1 className="text-6xl font-semibold mb-4 leading-snug">Raining Offers For Hot Summer!</h1>
